@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+.cards {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       max-width: 70%;
+       grid-gap: 40px;
+       justify-content: space-between;
+       margin-left: 295px;
+    
+}
+
+.user {
+    max-width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+form {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    max-width: 200px;
+}
+
+h3 {
+    color: white;
+    margin-left: 40%;
+}
+
+p {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.lorenzo {
+    color: white;
+    margin-left: 35%;
+}

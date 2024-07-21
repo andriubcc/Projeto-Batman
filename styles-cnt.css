@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    background-color: black;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+   width: 150px;
+   height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#form {
+    height: 700px;
+    width: 400px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+#nome {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#place-name {
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    border-radius: 5px;
+    border-radius: 30px;
+    border-color: black; 
+    border: 1px solid;
+}
+
+
+#telefone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: white;
+    align-items: center;
+}
+
+#place-number {
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    border-radius: 30px;
+    border-color: black; 
+    border: 1px solid;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: white;
+    align-items: center;
+}
+
+#place-email {
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    border-radius: 30px;
+    border-color: black;
+    border: 1px solid; 
+}
+
+#mensagem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: white;
+    align-items: center;
+}
+
+#place-message {
+    background-color: white;
+    height: 120px;
+    width: 80%;
+    border-radius: 30px;
+    border-color: black;
+    border: 1px solid; 
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
